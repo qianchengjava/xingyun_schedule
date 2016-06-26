@@ -10,8 +10,9 @@
         http://www.springframework.org/schema/task/spring-task-3.0.xsd">
          <context:component-scan base-package="cn.uncode.schedule"/>
         <task:annotation-driven/>  
-	    <bean id="zkScheduleManager" class="cn.uncode.schedule.ZKScheduleManager"
+	    <bean id="zkScheduleManager" class="com.xingyun.schedule.ZKScheduleManager"
 			init-method="init">
+			<property name="serverExpireTime" value="1000"></property>
 			<property name="zkConfig">
 		           <map>
 		              <entry key="zkConnectString" value="192.168.1.137:2181" />
