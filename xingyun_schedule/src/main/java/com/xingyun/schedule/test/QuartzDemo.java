@@ -11,7 +11,7 @@ public class QuartzDemo {
 	public void sayHi(){
 		System.out.println("hi...");
 	}
-	public static void main(String[] args) {
-		new ClassPathXmlApplicationContext("classpath:config/applicationContext2.xml");
-	}
+//	public static void main(String[] args) {
+//		new ClassPathXmlApplicationContext("classpath:config/applicationContext2.xml");
+//	}
 }
