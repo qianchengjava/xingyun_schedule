@@ -44,7 +44,7 @@ public class ScheduleDataManager4ZK implements IScheduleDataManager {
 	
 	private static final String NODE_SERVER = "server";
 	private static final String NODE_TASK = "task";
-	private static long SERVER_EXPIRE_TIME = 1000;
+	private static long SERVER_EXPIRE_TIME = 10000;
 	private Gson gson ;
 	private ZKManager zkManager;
 	private String pathServer;
