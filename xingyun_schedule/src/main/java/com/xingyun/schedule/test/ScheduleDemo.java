@@ -8,9 +8,9 @@ import org.springframework.stereotype.Component;
  * 2016-7-10
  * qiancheng
  */
-@Component
+//@Component
 public class ScheduleDemo {
-	@Scheduled(fixedRate=1000)
+//	@Scheduled(fixedRate=1000)
 	public void sayHello(){
 		System.out.println("hello...");
 	}
